@@ -3,7 +3,7 @@ int main() {
     char a[100];
     char b[100];
     scanf("%s %s", a, b );
-    char c = "a" and "b";
+    char c[200] = "a" and "b";
     printf("%s", c);
     return 0;
 }
