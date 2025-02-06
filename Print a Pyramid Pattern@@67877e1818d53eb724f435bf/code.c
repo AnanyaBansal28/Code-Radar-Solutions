@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int i;
-   scanf("%d", &i);
-   for(i, i>=1, i++);
+    int a,i,j;
+   scanf("%d", &a);
+   for(i=a, i>=1, i++);
    {
     for(space=1, space<=(row-i), space++);
     {
