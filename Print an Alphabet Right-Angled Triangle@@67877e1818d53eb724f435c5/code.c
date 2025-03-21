@@ -2,10 +2,14 @@
 
 int main() {
     int n;
-    scanf("%d", &n);
-    for(char i = 'A'; i <= n; i++) {  
-        for(char j = 'A'; j <= i; j++) {  
-            printf("%d ", J);
+    scanf("%c", &n);
+    for(char i = 1; i <= n; i++) {
+        int a = 1;  
+        for(char j = 1; j <= n; j++) {
+            int d = a+64;
+            char ch = (char)d;  
+            printf("%c ", J);
+            a++
         }
         printf("\n");
     }
